@@ -1,0 +1,49 @@
+p {
+  margin: 2% auto;
+}
+
+#menu {
+  top: 0%;
+  width: 100%;
+  position: fixed;
+}
+
+#header-img {
+  width: 15%;
+  margin-left: 42%;
+}
+
+.nav-link {
+  color: black;
+}
+
+#about {
+  margin-top: 20%;
+  background-color: #E6E6E6;
+}
+
+.sec_div {
+  display: flex; 
+  background-color: #E6E6E6; 
+  margin-top: 2%;
+}
+
+.align-center {
+  display: flex; 
+  justify-content: center;
+  margin-top: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: olive !important;
+  }
+
+  img {
+    width: 200px;
+  }
+
+  #about {
+    margin-top: 40%;
+  }
+}
